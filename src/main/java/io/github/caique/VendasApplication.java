@@ -1,7 +1,7 @@
 package io.github.caique;
 
 import io.github.caique.domain.entity.Cliente;
-import io.github.caique.domain.repsitorio.Clientes;
+import io.github.caique.domain.repsitory.Clientes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

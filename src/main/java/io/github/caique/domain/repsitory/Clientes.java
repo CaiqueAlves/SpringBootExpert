@@ -1,4 +1,4 @@
-package io.github.caique.domain.repsitorio;
+package io.github.caique.domain.repsitory;
 
 import io.github.caique.domain.entity.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
