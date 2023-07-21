@@ -5,17 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repsitory/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repository/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repsitory/ItensPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repository/ItensPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repsitory/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repository/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repsitory/Produtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/repository/Produtos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/VendasApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repsitory/Clientes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repsitory/ItensPedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repsitory/Pedidos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repsitory/Produtos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ClienteController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,26 +84,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1689733272538">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1689904600231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689733272538" />
-    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1689733272538">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689904600231" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1689905358945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689733272538" />
-    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1689733272538">
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905358945" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1689905358945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689733272538" />
-    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1689733272538">
+    <state width="1877" height="339" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905358945" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1689905358945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689733272538" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1689728300752">
+    <state width="1877" height="339" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905358945" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1689905358945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="339" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905358945" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1689902479336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-899" y="241" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1689041239582" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689728300752" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689902479336" />
   </component>
 </project>
