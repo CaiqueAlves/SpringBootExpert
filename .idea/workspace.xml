@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58518149-0e98-4d6a-b6a5-e75f7b22b610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/VendasApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Produto.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -82,31 +87,31 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1689904600231">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1690332523246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689904600231" />
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1689905811165">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690332523246" />
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1690335488043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905811165" />
-    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1689905811164">
+    <state width="1877" height="339" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690335488043" />
+    <state width="1877" height="339" key="GridCell.Tab.0.center" timestamp="1690335488042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905811164" />
-    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1689905811164">
+    <state width="1877" height="339" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690335488042" />
+    <state width="1877" height="339" key="GridCell.Tab.0.left" timestamp="1690335488042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905811164" />
-    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1689905811164">
+    <state width="1877" height="339" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690335488042" />
+    <state width="1877" height="339" key="GridCell.Tab.0.right" timestamp="1690335488042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="339" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1689905811164" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1690247000890">
+    <state width="1877" height="339" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690335488042" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1690330851503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-899" y="241" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1689041239582" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690247000890" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690330851503" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1689989530490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
