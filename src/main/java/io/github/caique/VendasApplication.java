@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class VendasApplication {
 
-    @Bean
+   /* @Bean
     public CommandLineRunner commandLineRunner(@Autowired Clientes clientes, @Autowired Produtos produtos){
         return args ->{
           Cliente c = new Cliente(null, "fulano");
@@ -23,7 +23,7 @@ public class VendasApplication {
           Produto p = new Produto(null, "Fone de ouvido", 205.5);
           produtos.save(p);
         };
-    }
+    }*/
 
     public static void main(String[] args) {
         SpringApplication.run(VendasApplication.class, args);

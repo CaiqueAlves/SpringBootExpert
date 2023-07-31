@@ -13,10 +13,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/produtos")
-public class ProdutosController {
+public class ProdutoController {
 
     private Produtos repository;
-    public ProdutosController(Produtos repository){
+    public ProdutoController(Produtos repository){
         this.repository = repository;
     }
 
