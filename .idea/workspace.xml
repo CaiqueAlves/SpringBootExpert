@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="58518149-0e98-4d6a-b6a5-e75f7b22b610" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/service/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,30 +84,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1690845547805">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1691099342000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690845547805" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691099342000" />
     <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1690420392022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690420392022" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1690593689779">
+    <state width="1877" height="186" key="GridCell.Tab.0.bottom" timestamp="1691099864249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690593689779" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1690593689779">
+    <state width="1877" height="186" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691099864249" />
+    <state width="1877" height="186" key="GridCell.Tab.0.center" timestamp="1691099864248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690593689779" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1690593689778">
+    <state width="1877" height="186" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691099864248" />
+    <state width="1877" height="186" key="GridCell.Tab.0.left" timestamp="1691099864248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690593689778" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1690593689779">
+    <state width="1877" height="186" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691099864248" />
+    <state width="1877" height="186" key="GridCell.Tab.0.right" timestamp="1691099864249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690593689779" />
+    <state width="1877" height="186" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691099864249" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1690590814651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,11 +116,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690588874575" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1691031972700">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1691097503721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-899" y="241" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1689041239582" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691031972700" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1691097503721" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1689989530490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
