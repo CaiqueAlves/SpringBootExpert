@@ -4,10 +4,12 @@ import io.github.caique.domain.entity.Cliente;
 import io.github.caique.domain.entity.ItemPedido;
 import io.github.caique.domain.entity.Pedido;
 import io.github.caique.domain.entity.Produto;
+import io.github.caique.domain.entity.enums.StatusPedido;
 import io.github.caique.domain.repository.Clientes;
 import io.github.caique.domain.repository.ItensPedido;
 import io.github.caique.domain.repository.Pedidos;
 import io.github.caique.domain.repository.Produtos;
+import io.github.caique.exception.PedidoNaoEncontradoException;
 import io.github.caique.exception.RegraNegocioException;
 import io.github.caique.rest.dto.ItemPedidoDTO;
 import io.github.caique.rest.dto.PedidoDTO;
@@ -47,12 +49,24 @@ public class PedidoServiceImpl implements PedidoService {
         repository.save(pedido);
         itensPedidoRpository.saveAll(itemsPedido);
         pedido.setItens(itemsPedido);
+        pedido.setStatus(StatusPedido.REALIZADO);
         return pedido;
     }
 
     @Override
     public Optional<Pedido> obterPedidoCompleto(Integer id) {
         return repository.findByIdFetchItens(id);
+    }
+
+    @Override
+    @Transactional
+    public void atualizarStatus(Integer id, StatusPedido statusPedido) {
+        repository
+                .findById(id)
+                .map(pedido -> {
+                    pedido.setStatus(statusPedido);
+                    return repository.save(pedido);
+                }).orElseThrow(() -> new PedidoNaoEncontradoException());
     }
 
     private List<ItemPedido> converterItems(Pedido pedido, List<ItemPedidoDTO> items){

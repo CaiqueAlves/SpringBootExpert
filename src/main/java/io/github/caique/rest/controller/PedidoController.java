@@ -2,6 +2,8 @@ package io.github.caique.rest.controller;
 
 import io.github.caique.domain.entity.ItemPedido;
 import io.github.caique.domain.entity.Pedido;
+import io.github.caique.domain.entity.enums.StatusPedido;
+import io.github.caique.rest.dto.AtualizacaoStatusPedidoDTO;
 import io.github.caique.rest.dto.InformacaoItemPedidoDTO;
 import io.github.caique.rest.dto.InformacoesPedidoDTO;
 import io.github.caique.rest.dto.PedidoDTO;
@@ -52,8 +54,17 @@ public class PedidoController {
                 .cpf(pedido.getCliente().getCpf())
                 .nomeCliente(pedido.getCliente().getNome())
                 .total(pedido.getTotal())
+                .status(pedido.getStatus().name())
                 .items(converter(pedido.getItens()))
                 .build();
+    }
+
+    @PatchMapping("{id}")
+    @ResponseStatus(NO_CONTENT)
+    public void updateStatus(@PathVariable Integer id,
+                             @RequestBody AtualizacaoStatusPedidoDTO dto){
+        String novoStatus = dto.getNovoStatus();
+        service.atualizarStatus(id, StatusPedido.valueOf(novoStatus));
     }
 
     private List<InformacaoItemPedidoDTO> converter(List<ItemPedido> itens){
