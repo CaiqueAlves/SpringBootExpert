@@ -1,5 +1,6 @@
-package io.github.caique;
+package io.github.caique.security.jwt;
 
+import io.github.caique.VendasApplication;
 import io.github.caique.domain.entity.Usuario;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
