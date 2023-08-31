@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="58518149-0e98-4d6a-b6a5-e75f7b22b610" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/security/jwt/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/security/jwt/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/UsuarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/UsuarioServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/io/github/caique" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +63,20 @@
       <recent name="io.github.caique.rest.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JwtService">
+  <component name="RunManager" selected="Application.VendasApplication">
+    <configuration name="JwtService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.caique.security.jwt.JwtService" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.caique.security.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JwtService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.caique.JwtService" />
       <module name="vendas" />
@@ -86,8 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JwtService" />
         <item itemvalue="Application.VendasApplication" />
+        <item itemvalue="Application.JwtService (1)" />
+        <item itemvalue="Application.JwtService" />
       </list>
     </recent_temporary>
   </component>
@@ -105,34 +125,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1692759185928">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1692928696574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692759185928" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692928696574" />
     <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1690420392022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1690420392022" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1692675612799">
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1693262673375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693262673375" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1693365571350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544791" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692675612799" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1692675612799">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1693365571350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544790" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692675612799" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1692675612799">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1693365571350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544790" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692675612799" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1692675612799">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1693365571350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544791" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692675612799" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1692154605058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -141,19 +165,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692758996349" />
-    <state x="656" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1692842017308">
+    <state x="656" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1693523395508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-899" y="241" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692584644276" />
-    <state x="656" y="339" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692842017308" />
+    <state x="656" y="339" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693523395508" />
     <state x="690" y="282" key="extract.method.dialog" timestamp="1692669074034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="282" key="extract.method.dialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692669074034" />
-    <state x="667" y="154" width="586" height="732" key="find.popup" timestamp="1692843664161">
+    <state x="1112" y="191" width="586" height="732" key="find.popup" timestamp="1692931940099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="154" width="586" height="732" key="find.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692843664161" />
+    <state x="1112" y="191" width="586" height="732" key="find.popup/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1692931940099" />
     <state x="655" y="378" width="665" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1692154596039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
