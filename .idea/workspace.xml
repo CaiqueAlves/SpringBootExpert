@@ -3,13 +3,58 @@
   <component name="ChangeListManager">
     <list default="true" id="58518149-0e98-4d6a-b6a5-e75f7b22b610" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/rest/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/security/jwt/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/service/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/UsuarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/UsuarioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/caique/domain/entity/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema..sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema..sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/vendas.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/VendasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/config/internacionalizacaoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/ItemPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Usuario$UsuarioBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/entity/enums/StatusPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repository/Clientes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repository/ItensPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repository/Pedidos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repository/Produtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/domain/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/exception/PedidoNaoEncontradoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/exception/RegraNegocioException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/exception/SenhaInvalidaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ApiErrors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/PedidoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/AtualizacaoStatusPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/CredenciaisDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/InformacaoItemPedidoDTO$InformacaoItemPedidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/InformacaoItemPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/InformacoesPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/ItemPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/PedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/rest/dto/TokenDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/security/jwt/JwtAuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/security/jwt/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/service/PedidoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/PedidoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/service/impl/UsuarioServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/validation/NotEmptyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/caique/validation/constraintValidation/NotEmptyListValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/meu_schema..sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +98,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Caiqu\IdeaProjects\vendas\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.github.caique.domain.repsitory" />
       <recent name="io.github.caique" />
@@ -137,26 +185,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693262673375" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1693365571350">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1693527399868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544791" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1693365571350">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399868" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1693527399868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544790" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1693365571350">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399868" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1693527399868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544790" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1693365571350">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399868" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1693527399868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="195" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1692555544791" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693365571350" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399868" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1693527399869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399869" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1693527399869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399869" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1693527399868">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399868" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1693527399869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1693527399869" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1692154605058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
